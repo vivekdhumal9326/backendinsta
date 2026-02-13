@@ -8,11 +8,6 @@ dotenv.config();
 
 const app = express();
 
-app.use(cors({
-  origin: "https://frontendinsta-rxto.vercel.app/",
-  methods: ["GET", "POST", "PUT", "DELETE"],
-  credentials: true
-}));
 app.use(express.json());
 
 // Routes
