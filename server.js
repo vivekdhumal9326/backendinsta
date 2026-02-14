@@ -7,6 +7,12 @@ import userRoutes from "./routes/userRoutes.js"
 dotenv.config();
 
 const app = express();
+app.use(cors({
+  origin: [
+    "http://localhost:5173",
+    "https://indian-instagram-followers.vercel.app"
+  ],
+}));
 
 app.use(express.json());
 
