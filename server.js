@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://frontendinstanew.vercel.app/"
+    "https://frontendinstanew.vercel.app"
   ],
 }));
 
