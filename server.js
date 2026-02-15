@@ -10,7 +10,7 @@ const app = express();
 app.use(cors({
   origin: [
     "http://localhost:5173",
-    "https://indian-instagram-followers.vercel.app"
+    "https://frontendinstanew.vercel.app/"
   ],
 }));
 
